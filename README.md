@@ -1,3 +1,3 @@
 # HotDocs
 
-![Logo](images/logo.png)
+![Logo](images/logo.png | width=48)
