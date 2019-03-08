@@ -21,7 +21,7 @@
       "method": "get",
       "response": {
         "format": "json",
-        "example": "test"
+        "example": "example-responses/email.txt"
       }
     },
     {
@@ -31,7 +31,7 @@
       "method": "get",
       "response": {
         "format": "json",
-        "example": "test"
+        "example": "example-responses/domain.txt"
       }
     }
   ]

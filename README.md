@@ -31,7 +31,7 @@ That's not a question. But thank you.
 I know. Maybe I come up with a better soulution to do this in the future. Stay tuned!
 
 ### What techniques are used under the hood?
-Just JQuery and Bulma. That's it.
+Just jQuery and Bulma. That's it.
 
 ### Why did you made this?
 I wanted to have a simple way to create good looking API Documentations for my projects without hard-coding everything.

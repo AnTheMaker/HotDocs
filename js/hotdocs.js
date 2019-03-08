@@ -51,12 +51,20 @@ $.getJSON("data.json", function(data) {
         $('#'+endpoint_id+' .endpoint-method').text(val);
       }else if(key == "response"){
         $('#'+endpoint_id+' .endpoint-response-format').text(val.format);
-        $('#'+endpoint_id+' .endpoint-response').html(val.example);
+        $.ajax({
+            type: "GET",
+            url: val.example,
+            dataType: "text",
+            success: function(result) {
+              $('#'+endpoint_id+' .endpoint-response').text(result);
+            }
+          });
       }
     });
   });
 
 });
+
 
 function newEndpointBox(id){
   var html = '<div class="box" id="'+id+'">';

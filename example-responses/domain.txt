@@ -1,0 +1,19 @@
+// Valid domain
+{
+    "status": 200,
+    "domain": "example.com",
+    "mx": false,
+    "disposable": false,
+    "did_you_mean": false,
+    "remaining_requests": 119
+}
+// Invalid domain
+{
+    "status": 400,
+    "error": "The domain is invalid."
+}
+// Requests limit reached
+{
+    "status": 429,
+    "error": "Rate limit exceeded."
+}
