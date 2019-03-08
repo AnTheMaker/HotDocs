@@ -1,6 +1,6 @@
 
 ![](https://img.shields.io/badge/Hot%20Dog-approved-success.svg)
-<img src="images/logo.png" width="100" align="right">
+<img src="images/logo.png" width="130" align="right">
 
 <h1>HotDocs 🌭</h1>
 
