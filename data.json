@@ -1,6 +1,6 @@
 {
-  "title": "Disposable email hunter",
-  "subtitle": "<a href='https://www.validator.pizza/''>Validator.pizza</a> is a free API to check if an email is disposable.",
+  "title": "Validator.pizza API",
+  "subtitle": "Example API Documentation for the <a href='https://www.validator.pizza/'>Validator.pizza</a> disposable Email Checker API.",
   "base":{
     "url": "https://www.validator.pizza/",
     "info": "All Endpoints only support GET Requests . No POST, PUT or DEELETE Requests please."
