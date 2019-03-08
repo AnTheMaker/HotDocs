@@ -7,12 +7,28 @@
 Flame-grilled API Documentations
 
 ## What is HotDocs?
-HotDocs is a simple Template for API Documentations. You just have to edit the `data.json` File and you are good to go!
+HotDocs is a simple template for API Documentations. You just have to edit the `data.json` file and you are good to go!
 
 ## How can I use it for my Project?
 1. Download or clone this repo.
-2. Edit to `data.json` file and insert your API details (endpoints, etc.)
+2. Edit the `data.json` file and insert your API details (endpoints, etc.)
 3. You're done! Open the `index.html` file in your Browser and enjoy your beautiful-looking API Documentation!
 
-## Why does this look so good?
+## Frequently Asked Questions
+### Why does this look so good?
 Because of [Bulma](https://bulma.io)! Bulma is a free, 100% mobile responsive CSS Framework!
+
+### Why did you chose this name?
+I guess I was hungry. Sorry about that.
+
+## This is cool
+That's not a question. But thank you.
+
+## But generating all the content with JavaScript is bad for SEO!
+I know. Maybe I come up with a better soulution to do this in the future. Stay tuned!
+
+## What techniques are used under the hood?
+Just JQuery and Bulma. That's it.
+
+## Why did you made this?
+I wanted to have a simple way to create good looking API Documentations for my projects without hard coding everything.
