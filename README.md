@@ -15,7 +15,7 @@ HotDocs is a simple template for API Documentations. You just have to edit the `
 3. You're done! Open the `index.html` file in your Browser and enjoy your beautiful-looking API Documentation!
 
 ## Demo
-You can have a look at an Example API Documentation [here]().
+You can have a look at an Example API Documentation [here](https://anthemaker.github.io/HotDocs/).
 
 ## Frequently Asked Questions
 ### Why does this look so good?
