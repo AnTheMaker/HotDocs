@@ -1,5 +1,5 @@
 
-<img src="images/logo.png" width="70" align="right">
+<img src="images/logo.png" width="100" align="right">
 
 <h1>HotDocs 🌭</h1>
 
