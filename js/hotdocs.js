@@ -25,6 +25,7 @@ $(window).scroll(function() {
 $.getJSON("data.json", function(data) {
   $('#title').html(data.title);
   $('#subtitle').html(data.subtitle);
+  $('#logo').attr("src", data.logo);
   $('#base_url').html(data.base.url);
   $('#base_info').html(data.base.info);
   $('#auth_info').html(data.auth);
