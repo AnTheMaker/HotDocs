@@ -1,2 +1,6 @@
 
-<img src="images/logo.png" width="55" align="right"> <h1>HotDocs</h1>
+<img src="images/logo.png" width="70" align="right">
+#HotDocs 🌭
+Flame-grilled API Documentations
+
+## What is HotDocs?
