@@ -37,4 +37,7 @@ I wanted to have a simple way to create good looking API Documentations for my p
 Of course you can!
 
 ### Do I have to give credits for using HotDocs?
-No you don't have to. I mean it would look wired if someone would read "powered by hotdocs", wouldn't it?
+No you don't have to. I mean it would look wired if someone would read "powered by hotdocs 🌭" somewhere on your site, wouldn't it?
+
+### Who made this?
+[I](https://twitter.com/AnTheMaker) made this. You can contact me on [Twitter](https://twitter.com/AnTheMaker) if you want. 👋
