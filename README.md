@@ -1,6 +1,7 @@
 
 <img src="images/logo.png" width="70" align="right">
-# HotDocs 🌭
+
+<h1>HotDocs 🌭</h1>
 
 Flame-grilled API Documentations
 
