@@ -26,6 +26,7 @@ $.getJSON("data.json", function(data) {
   $('#title').html(data.title);
   $('#subtitle').html(data.subtitle);
   $('#logo').attr("src", data.logo);
+  $('#footer_text').html(data.footer);
   $('#base_url').html(data.base.url);
   $('#base_info').html(data.base.info);
   $('#auth_info').html(data.auth);

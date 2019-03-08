@@ -2,6 +2,7 @@
   "title": "Validator.pizza API",
   "subtitle": "Example API Documentation for the <a href='https://www.validator.pizza/'>Validator.pizza</a> disposable Email Checker API.",
   "logo": "images/logo.svg",
+  "footer": "<strong>🌭 HotDocs</strong> was made by <a href='https://twitter.com/AnTheMaker'>An</a>. This is an Example API Documentation for <a href='https://www.validator.pizza/'>validator.pizza</a> and not affiliated with it!",
   "base":{
     "url": "https://www.validator.pizza/",
     "info": "All Endpoints only support GET Requests . No POST, PUT or DEELETE Requests please."
