@@ -12,7 +12,8 @@ HotDocs is a simple template for API Documentations. You just have to edit the `
 ## How can I use it for my Project? (aka. Installation)
 1. Download or clone this repo.
 2. Edit the `data.json` file and insert your API details (endpoints, etc.)
-3. You're done! Open the `index.html` file in your Browser and enjoy your beautiful-looking API Documentation!
+3. For each of your endpoints, add a file with an example response in the folder `example-responses`
+4. You're done! Open the `index.html` file in your Browser and enjoy your beautiful-looking API Documentation!
 
 ## Demo
 You can have a look at an Example API Documentation [here](https://anthemaker.github.io/HotDocs/).
