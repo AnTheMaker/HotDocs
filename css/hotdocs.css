@@ -2,14 +2,16 @@
   margin-top: 20px;
 }
 
-.sidebar {
-  align-self: flex-start;
-  position: -webkit-sticky;
-  position: sticky;
-  z-index: 1;
-  top: 20px;
-  left: 10px;
-  overflow-x: hidden;
+@media (min-width: 30em) { /* DESKTOP */
+  .sidebar {
+    align-self: flex-start;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    overflow-x: hidden;
+  }
 }
 .endpoint-method,
 .endpoint-response-format{
