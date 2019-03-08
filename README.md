@@ -9,10 +9,13 @@ Flame-grilled API Documentations
 ## What is HotDocs?
 HotDocs is a simple template for API Documentations. You just have to edit the `data.json` file and you are good to go!
 
-## How can I use it for my Project?
+## How can I use it for my Project? (aka. Installation)
 1. Download or clone this repo.
 2. Edit the `data.json` file and insert your API details (endpoints, etc.)
 3. You're done! Open the `index.html` file in your Browser and enjoy your beautiful-looking API Documentation!
+
+## Demo
+You can have a look at an Example API Documentation [here]().
 
 ## Frequently Asked Questions
 ### Why does this look so good?
