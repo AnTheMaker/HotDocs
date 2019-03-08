@@ -1,2 +1,2 @@
-# HotDocs
-<img src="https://github.com/favicon.ico" width="48">
+
+<img src="images/logo.png" width="48"> # HotDocs
