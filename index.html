@@ -3,20 +3,94 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
+    <title>HotDocs</title>
     <link rel="stylesheet" href="css/bulma.min.css">
+    <link rel="stylesheet" href="css/hotdocs.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   </head>
   <body>
-  <section class="section">
-    <div class="container">
-      <h1 class="title">
-        Hello World
-      </h1>
-      <p class="subtitle">
-        My first website with <strong>Bulma</strong>!
+    <section class="hero is-medium is-primary is-bold">
+      <div class="hero-body">
+        <div class="container">
+          <div class="float-left">
+            <img src="images/logo.svg" alt="Logo" class="logo">
+          </div>
+          <div>
+            <h1 class="title" id="title">
+              Primary bold title
+            </h1>
+            <h2 class="subtitle" id="subtitle">
+              Primary bold subtitle
+            </h2>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-3 sidebar">
+            <aside class="menu">
+              <p class="menu-label">
+                General
+              </p>
+              <ul class="menu-list">
+                <li><a href="#base">API Base</a></li>
+                <li><a href="#auth">Authentication</a></li>
+                <li><a href="#limits">Rate Limits</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+              <p class="menu-label">
+                Endpoints
+              </p>
+              <ul class="menu-list endpoints-menu">
+              </ul>
+            </aside>
+          </div>
+          <div class="column is-9" id="boxes">
+            <div class="box" id="base">
+              <h4 class="title is-3">API Base</h4>
+              <article class="message is-primary">
+                <div class="message-body" id="base_info">
+                </div>
+              </article>
+              <pre><code id="base_url"></code></pre>
+            </div>
+            <div class="box" id="auth">
+              <h4 class="title is-3">Authentication</h4>
+              <article class="message is-primary">
+                <div class="message-body" id="auth_info">
+                </div>
+              </article>
+            </div>
+            <div class="box" id="limits">
+              <h4 class="title is-3">Rate Limits</h4>
+              <article class="message is-primary">
+                <div class="message-body" id="limits_info">
+                </div>
+              </article>
+            </div>
+            <div class="box" id="contact">
+              <h4 class="title is-3">Contact</h4>
+              <article class="message is-primary">
+                <div class="message-body" id="contact_info">
+                </div>
+              </article>
+              <pre><code id="contact_link"></code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>🌭 HotDocs</strong> was made by <a href="https://twitter.com/AnTheMaker">An</a>.
+        This is an Example API Documentation for <a href="https://www.validator.pizza/">validator.pizza</a> and not affiliated with it!
       </p>
     </div>
-  </section>
+  </footer>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/hotdocs.js"></script>
   </body>
 </html>

@@ -1,0 +1,29 @@
+.menu-label {
+  margin-top: 20px;
+}
+
+.sidebar {
+  align-self: flex-start;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  overflow-x: hidden;
+}
+.endpoint-method,
+.endpoint-response-format{
+  text-transform: uppercase;
+}
+
+.menu-list a.is-active{
+  background-color: #00D1B2;
+}
+
+.float-left { /* wow, such obvious */
+  float: left;
+}
+.logo{
+  height: 100px;
+  margin-right: 30px;
+}

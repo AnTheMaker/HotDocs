@@ -1,0 +1,36 @@
+{
+  "title": "Disposable email hunter",
+  "subtitle": "<a href='https://www.validator.pizza/''>Validator.pizza</a> is a free API to check if an email is disposable.",
+  "base":{
+    "url": "https://www.validator.pizza/",
+    "info": "All Endpoints only support GET Requests . No POST, PUT or DEELETE Requests please."
+  },
+  "auth": "This API doesn't require any Authentication.",
+  "limits": "The number of request is limited to 120 requests per hour, per IP address. I wanted to make it unlimited, but some people like to go wild, so I had to set a limit to guarantee the good functionality for everyone. If you need a higher limit, please <a href='https://twitter.com/thomaspetracco'>contact me on Twitter</a>.\nAll IPs sending excessive requests will be banned.",
+  "contact": {
+    "link": "https://twitter.com/thomaspetracco",
+    "info": "If you need help using this API, please don't hesistate to contact me on Twitter."
+  },
+  "endpoints":[
+    {
+      "name": "Validate an email",
+      "text": "Detect if an Email is disposable or not.",
+      "url": "https://www.validator.pizza/email/email@example.com",
+      "method": "get",
+      "response": {
+        "format": "json",
+        "example": "test"
+      }
+    },
+    {
+      "name": "Validate a domain",
+      "text": "Detect if a Domain is used for disposable Email Addresses.",
+      "url": "https://www.validator.pizza/domain/example.com",
+      "method": "get",
+      "response": {
+        "format": "json",
+        "example": "test"
+      }
+    }
+  ]
+}
