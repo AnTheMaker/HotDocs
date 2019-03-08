@@ -31,4 +31,10 @@ I know. Maybe I come up with a better soulution to do this in the future. Stay t
 Just JQuery and Bulma. That's it.
 
 ### Why did you made this?
-I wanted to have a simple way to create good looking API Documentations for my projects without hard coding everything.
+I wanted to have a simple way to create good looking API Documentations for my projects without hard-coding everything.
+
+### Can I use this for my API Documentations?
+Of course you can!
+
+### Do I have to give credits for using HotDocs?
+No you don't have to. I mean it would look wired if someone would read "powered by hotdocs", wouldn't it?
